@@ -1,0 +1,126 @@
+body{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 15px;
+}
+
+#header{
+    font-size: 1.3em;
+}
+#header i{
+    margin-right: 10px;
+    cursor: pointer;
+}
+#header a{
+    color: black;
+    text-decoration: none;
+}
+
+
+#header button{
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    border-radius: 20px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.headerBtn1{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+.headerBtn1:hover{
+    background-color: rgb(0, 0, 0,0.685);
+}
+
+.headerBtn2{
+    padding: 5px;
+    background-color: white;
+    font-weight: bold;
+}
+.headerBtn2:hover{
+    background-color: rgba(0, 0, 0, 0.100);
+}
+#header span{
+    float: right;
+}
+
+#prompt{
+    text-align: center ;
+    margin: 150px auto;
+}
+#prompt h1{
+    font-size: 2em;
+    display: inline-block;
+}
+.head {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing;
+    animation-duration: 3s;
+    animation-timing-function: steps(100, end);
+    animation-fill-mode: forwards;
+}
+#prompt input{
+    width: 55%;
+    height: 45px;
+    border: rgba (0, 0, 0, 0.164);
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.041);
+}
+
+.fa-arrow-up{
+    background-color: rgba(0, 0, 0, 0.13);
+    padding: 8px;
+    border: 1px;
+    border-radius: 60%;
+    margin-left: -40px;
+}
+.inputField{
+    font-size: 1.2em;
+    padding-left: 20px;
+}
+.promptBtns{
+    padding: 10px;
+    margin: 2px auto;
+}
+.promptBtn{
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+.promptBtn i{
+    font-size: 0.8em;
+}
+.promptBtn:hover{
+    background-color: #00000017;
+}
+.fa-book{
+    color: blue;
+}
+.fa-gift{
+    color: red;
+}
+.fa-code{
+    color: orangered;
+}
+.fa-lightbulb{
+    color: green;
+}
+.fa-clipboard{
+    color: brown;
+}
+
+
+
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100%;}
+}
